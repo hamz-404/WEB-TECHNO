@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <form action="">
+    <center>
+    <h1>Assignment </h1>
+    </center>
+    <hr>
+    <h2>Files</h2>
+    <hr>
+    <div>
+        <label for="Addyourfile">Upload your File : </label>
+            <input type="file" value="Upload Now">
+        
+    </div>
+    <!-- For Uploading multiple files use Multiple attribute -->
+     <br><hr> <br>
+    <div>
+        <label for="Addyourfiles">Upload your Files: </label>
+            <input type="file" value="Upload Now" multiple>
+        
+    </div>
+    <br> <hr> <br>
+    <h2>Date</h2>
+     <label for="dob">Choose your date of birth:</label>
+     <input type="date" id="dob" name="dob">
+     <hr><br>
+    <h2>Image as Input</h2>
+      <label for="image">Add your Image :</label>
+      <input type="file" value="image" alt="Submit" accept=".jpg">
+      <!-- if we want of all types then accept="image/*" -->
+      <!--  we can add width="50" height="50" -->
+        <br> <hr> <br>
+
+    <h2>Range Button</h2>
+    <label for="Range">Rate your languages from 1 - 10 :</label>
+    <input type="range" value="range">
+    <br> <hr> <br>
+
+    <label for="Location">Location :</label>
+    <select name="location" id="Location">
+        <option value="Bangalore">Bangalore</option>
+        <option value="Bangalore">Chennai</option>
+        <option value="Bangalore">Hydderabad
+        </option>
+    </select>
+
+      
+       
+      <br> <hr> <br>
+      <input type="submit">
+
+    </form>
+
+</body>
+</html>

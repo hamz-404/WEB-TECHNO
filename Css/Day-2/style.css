@@ -1,0 +1,9 @@
+h1:first-of-type{
+    color: bisque;
+} 
+h1:last-of-type{
+    color: blue;
+}
+h1:nth-last-of-type(3){
+    color: grey;
+}

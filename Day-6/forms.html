@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <h4>Login Form</h4> <hr>
+    <form action="GET">
+        <div>
+            <label for="Username">Username : </label>
+            <input type="text" id="Username" placeholder="Enter your Username">
+        </div><br>
+        <div>
+            <label for="Email">Email : </label>
+            <input type="email" id="Email" placeholder="Enter your Email">
+        </div><br>
+        <div>
+        <div>
+            <label for="Password">Password : </label>
+            <input type="password" id="Password" placeholder="Enter your Password">
+        </div><br>
+        <div><label for="gender">Gender : </label>
+            <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Others">Others</label>
+        <input type="radio" name="gender" id="Others" value="Others">
+        </div><br>
+        <div><label for="Technologies">Technologies :</label>
+            <input type="checkbox" value="HTML">HTML
+            <input type="checkbox" value="CSS">CSS
+            <input type="checkbox" value="JAVASCRIPT">JAVASCRIPT
+            <input type="checkbox" value="REACT.JS">REACT.JS
+        </div>
+        <br>
+        <div><label for="location">Location :</label>
+            <select name="location">
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Hyderabad" selected>Hyderabad</option>
+                <!-- Selected is used to make option or any dropdown value set default -->
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="college">College :</label>
+            <input list="College">
+            <datalist id="College">
+            <option value="KNS">KNS</option>
+             <option value="KIMS">KIMS</option>
+              <option value="KRISTU">KRISTU</option>
+            </datalist>
+        </div> 
+        <br>
+        <div> 
+          <input type="submit">
+        </div><br>
+    </form>
+</body>
+</html>

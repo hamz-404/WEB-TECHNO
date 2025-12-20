@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+p{
+    color: whitesmoke;
+}
+p::first-line{
+    color: crimson;
+}
+p::first-letter{
+    font-size: 50px;
+}
+p::before{
+    content: "Yoyo";
+}
+p::after{
+    content: "Yoyo";
+}
+img:hover{
+    content: url("2492640.jpg");
+    width: 50%;
+}
