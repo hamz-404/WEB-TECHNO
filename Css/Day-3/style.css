@@ -1,5 +1,11 @@
 body{
     background-color: black;
+    color: white;
+}
+body::selection{
+    background-color: grey;
+    color: crimson;
+    
 }
 p{
     color: whitesmoke;
@@ -19,4 +25,17 @@ p::after{
 img:hover{
     content: url("2492640.jpg");
     width: 50%;
+}
+/* h1::selection{
+    background-color: grey;
+    color: crimson;
+} */
+
+li::marker{
+    color: brown;
+    font-size: 50px;
+    
+}
+ul{
+    font-size: 10px;
 }
