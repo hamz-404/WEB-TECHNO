@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        
+        .parent{
+            height: 270px;
+            display: grid;
+            grid-template-columns: 160px 160px 160px;
+            grid-template-rows: 100px 100px ;
+            gap: 20px;
+            margin: 10px;
+            border: 2px double;
+            border-radius: 30px;
+            padding: 20px;
+
+        }
+        .child{
+            border: 1px solid ;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .child:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"><img src="Mercedez-removebg-preview.png" alt="" height="100px" width="100px"></div>
+        <div class="child"><img src="Mercedez-removebg-preview.png" alt="" height="100px" width="100px"></div>
+        <div class="child"><img src="Mercedez-removebg-preview.png" alt="" height="100px" width="100px"></div>
+        <div class="child"><img src="Mercedez-removebg-preview.png" alt="" height="100px" width="100px"></div>
+        <div class="child"><img src="Mercedez-removebg-preview.png" alt="" height="100px" width="100px"></div>
+        <div class="child"><img src="Mercedez-removebg-preview.png" alt="" height="100px" width="100px"></div>
+    </div>
+</body>
+</html>
